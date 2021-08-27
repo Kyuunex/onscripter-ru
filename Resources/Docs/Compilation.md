@@ -296,7 +296,7 @@ You will have to copy the recompiled binaries from `DerivedData/Droid-package/bi
 
 1. You will need a number of packages:
 ```
-apt-get install build-essential cmake subversion mercurial git libreadline-dev autoconf yasm libasound-dev libgl1-mesa-dev libegl1-mesa-dev libxrandr-dev pkg-config unzip
+apt-get install build-essential cmake curl subversion mercurial git libreadline-dev autoconf yasm libasound-dev libgl1-mesa-dev libegl1-mesa-dev libxrandr-dev pkg-config unzip
 ```
     1. You may not need mesa GL packages if you use NVIDIA proprietary drivers.
 2. Don't forget to set an executive bit for shell files, otherwise it may fail:
